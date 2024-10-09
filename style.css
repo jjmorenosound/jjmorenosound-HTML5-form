@@ -1,0 +1,148 @@
+div {
+    padding: 5px;
+}
+.whole {
+    width: 1300px;
+    margin-top: 50px;
+padding: 0px;
+
+  border: 1px solid rgb(213, 213, 213);
+  border-radius: 5px;
+}
+.header {
+padding-top: 10px;
+padding-bottom: 10px;
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: 30px;
+border-radius: 5px;
+border-bottom: 1px solid rgb(213, 213, 213);
+}
+
+.alert {
+    display: flex;
+    height: 55px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 1255px;
+}
+.card {
+    margin-top: 20px;
+    flex-direction: row;
+    object-fit: contain;
+    border: none;
+    margin-left: 18px;
+  
+    width: 1250px;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+.cardnum {
+    margin-right: 10px;
+    padding-top: 10px;
+}
+.cvc {
+    margin-right: 10px;
+    padding-top: 10px;
+}
+.monto {
+    margin-right: 10px;
+    padding-top: 10px;
+    width: 500px;
+}
+.montoinput {
+    width: 450px;
+}
+.nombres {
+    margin-left: 3px;
+    margin-right: 10px;
+}
+.payments {
+    display: flex;
+    flex-direction: row;
+    width: 165px;
+    border-radius: 5px;
+}
+.postcode {
+    width: 360px; 
+}
+.state {
+    width: 350px;
+}
+label {
+    padding-bottom: 3px;
+}
+
+input.lastname{
+    width: 600px !important;
+}
+.citi {
+    margin-left: 12px;
+    width: 600px;
+}
+input[type=text] {
+     width: 100%; 
+     box-sizing: border-box; 
+     height: 28px;
+     border: 1px solid rgb(213, 213, 213);
+     border-radius: 5px;
+}
+input[type=tel] {
+    width: 100%; 
+    box-sizing: border-box; 
+    height: 28px;
+    border: 1px solid rgb(213, 213, 213);
+    border-radius: 5px;
+}
+input[type=number] {
+    margin-top: 3px;
+   width: 402px;
+    box-sizing: border-box; 
+    height: 28px;
+    border: 1px solid rgb(213, 213, 213);
+    border-radius: 5px;
+}
+
+input[type=radio] {
+    margin-bottom: 20px;
+}
+
+.postinput {
+    width: 320px !important;
+}
+option {
+    width: 1350px; 
+    box-sizing: border-box; 
+    height: 28px;
+    border: 1px solid rgb(213, 213, 213);
+    border-radius: 5px;
+}
+.message textarea {
+    width: 600px;
+}
+.payments {
+    
+    width: 235px;
+    height: 40px;
+    margin-left: 10px;
+   
+}
+.notes {
+    font-size: smaller;
+    padding-left: 10px;
+}
+.buttons {
+    height: 65px;
+    border-top: 1px solid rgb(213, 213, 213);
+    padding: 0;
+    margin-left: 6px;
+    display: flex;
+    justify-content: end;
+    width: 1300px;
+}
+
+button {
+    margin-left: 10px;
+    margin-top: 8px;
+}
